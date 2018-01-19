@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Html Forms</title>
+</head>
+<body>
+	<h1>Html 101</h1>
+	<!-- <form action="method">
+		<br>
+		<input type="text">
+		<br>
+		<input type="password" name="">
+		<br>
+		<input type="email">
+		<br>
+		<input type="radio">
+		<input type="radio">
+		<input type="radio">
+		<br>
+		<input type="checkbox">
+		<input type="checkbox">
+		<input type="checkbox">
+		<input type="checkbox">
+		<br>
+		<input type="number">
+		<br>
+		<input type="date">
+		<br>
+		<input type="submit">
+		<button type="submit">submit</button>
+
+	</form> -->
+<form action="method">
+	<fieldset>
+		<table  border="2"  width="5"  cellspacing="2" cellspacing="30%">
+			<thead>
+				<tr>
+				<th><legend>Fill in the form</legend></th>
+				</tr>		
+			</thead>
+			<tbody>
+				<tr>
+					<td><label>User Name:</td>
+						<td><input type="text" name="User Name" 
+			placeholder="Kindly enter your user name"></td>
+				</tr>
+				<tr>
+				<td><label for="pass">password:</label></td>
+				<td><input type="password" name="password" id="pass" 
+		place holder="Kindly enter your password"></td>
+					
+				</tr>
+				<tr>
+					<td><label>Gender:</td>
+						<td>Male:<input type="radio" name="gender" value="male">
+			Female<input type="radio" name="gender" value="female">
+			Other<input type="radio" name="gender" value="other"></td>
+				</tr>
+				<tr>
+					<td><label>Skills:</td>
+						<td>	HTML:<input type="checkbox" name="HTML">
+			CSS: <input type="checkbox" name="CSS">
+			PHP:<input type="checkbox" name="PHP">
+			SQL:<input type="checkbox" name="SQL"></td>
+					
+				</tr>
+				<tr>
+					<td><label for="counties">Select your county</label></td>
+					<td>	<select name="country" id="counties">
+				<option value=""></option>
+				<option value="Nairobi">Nairobi</option>
+				<option value="Nakuru">Nakuru</option>
+				<option value="Tranzoia">Tranzoia</option>
+				<option value="Mombasa">Mombasa</option>
+				<option value="Kakamega">Kakamega</option>
+			</select></td>
+				</tr>
+				<tr>
+					<td><label>
+				COmments:</td>
+				<td><textarea name="comments" cols="30" rows="10"></textarea></td>
+				</tr>
+				<tr>
+					<td><label>
+				<input type="submit"></td>
+				</tr>
+
+			</tbody>
+		</table>
+		<legend>Fill in the form</legend>
+		<label>User Name:
+			<input type="text" name="User Name" 
+			placeholder="Kindly enter your user name">
+
+
+			
+		</label>
+		<label for="pass">password:</label>
+		<input type="password" name="password" id="pass" 
+		place holder="Kindly enter your password">
+		<label>Gender:
+			Male:<input type="radio" name="gender" value="male">
+			Female<input type="radio" name="gender" value="female">
+			Other<input type="radio" name="gender" value="other">
+
+		</label>
+		<br>
+		<label>Skills:
+			HTML:<input type="checkbox" name="HTML">
+			CSS: <input type="checkbox" name="CSS">
+			PHP:<input type="checkbox" name="PHP">
+			SQL:<input type="checkbox" name="SQL">
+			<br>
+			<label for="counties">Select your county</label>
+			<select name="country" id="counties">
+				<option value=""></option>
+				<option value="Nairobi">Nairobi</option>
+				<option value="Nakuru">Nakuru</option>
+				<option value="Tranzoia">Tranzoia</option>
+				<option value="Mombasa">Mombasa</option>
+				<option value="Kakamega">Kakamega</option>
+			</select>
+			<br>
+			<br>
+			<label>
+				COmments:
+				<textarea name="comments" cols="30" rows="10"></textarea>
+			</label>
+			<br>
+			<label>
+				<input type="submit">
+			</label>
+			</fieldset>
+</form>
+</body>
+</html>

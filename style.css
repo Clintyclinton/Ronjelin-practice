@@ -1,0 +1,80 @@
+/*type selectors*/
+body{
+	margin: 0;
+	padding: 0;
+	font-family: arial,helvetica,sans-serif;
+}
+h1{
+	margin: 0;
+}
+h2,h3,h4 {
+color: olive;
+}
+
+/*class selectors*/
+
+.container{
+	width: 50em;
+	margin: auto;
+}
+.nav{
+	background: bisque;
+	padding: 1em 2em;
+	background: url(img3/4.jpg);
+}
+.intro{
+	font-size: 1.2em;
+	color: blueviolet;
+}
+
+/*id selectors*/
+#header, #footer{
+color: blueviolet;
+background: black;
+padding: 0;
+}
+#main{
+margin: 1em 2em;
+}
+
+
+
+/*universal selector*/
+
+
+
+
+/*descendant selectors*/
+
+.nav li{
+	display: inline;
+	margin-right:2em;
+}
+
+	color: #fff
+}
+/*child selectors*/.
+.nav li >a{
+	text-decoration:none:
+}
+
+
+
+
+
+/*adjacent-sibling selectors*/
+h3 + h4{
+	background: color:orange;
+}
+h3+p{
+	border:groove;
+}
+
+
+
+/*link-pseudo class selectors*/
+a:link{ color:aqua; }
+a:visited{ color:lime; }
+a:focus{ color:blue; }
+a:hover{ color:lightgreen; }
+a:active{ color:pink; }
